@@ -13,6 +13,10 @@ __pycache__/
 *.pkl
 *.joblib
 
+# Allow our final trained model
+!models/prophet_model.pkl
+
+
 # OS files
 .DS_Store
 Thumbs.db
